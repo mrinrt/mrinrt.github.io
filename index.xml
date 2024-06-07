@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mri4all Hackathon</title>
+    <link>http://localhost:62535/</link>
+    <description>Recent content on mri4all Hackathon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62535/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Registration is open now</title>
+      <link>http://localhost:62535/news/registration/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62535/news/registration/</guid>
+      <description>It&amp;rsquo;s official! The registration for the hackathon is now open. Please use the button &amp;ldquo;Register Now&amp;rdquo; in the top-right corner and submit you application for the participation.</description>
+    </item>
+    <item>
+      <title>Abstract submission is open now</title>
+      <link>http://localhost:62535/news/abstract_submission/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62535/news/abstract_submission/</guid>
+      <description>It&amp;rsquo;s official! Call for abstracts is now open.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:62535/privacy/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62535/privacy/</guid>
+      <description>Privacy Statement &amp;nbsp; This privacy policy will explain how mri4all.org uses personal data we collect from you when you use our website. &amp;nbsp;&#xA;How do we collect your data? You directly provide mri4all.org with the data we collect. We collect data and process data only when you complete the questionnaire regarding your intention to participate in the MRI4ALL hackathon. &amp;nbsp;&#xA;How will we use your data? mri4all.org collects your data so that collect applications for the participation in the planned hackathon event.</description>
+    </item>
+    <item>
+      <title>Registration</title>
+      <link>http://localhost:62535/register/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62535/register/</guid>
+      <description>TODO</description>
+    </item>
+    <item>
+      <title>Sponsorship Opportunities</title>
+      <link>http://localhost:62535/sponsorship/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62535/sponsorship/</guid>
+      <description>TODO</description>
+    </item>
+  </channel>
+</rss>
