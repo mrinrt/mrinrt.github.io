@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates &amp; News on mri4all Hackathon</title>
-    <link>http://localhost:62535/news/</link>
+    <link>https://mri4all.org/news/</link>
     <description>Recent content in Updates &amp; News on mri4all Hackathon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62535/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mri4all.org/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Registration is open now</title>
-      <link>http://localhost:62535/news/registration/</link>
+      <link>https://mri4all.org/news/registration/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62535/news/registration/</guid>
+      <guid>https://mri4all.org/news/registration/</guid>
       <description>It&amp;rsquo;s official! The registration for the hackathon is now open. Please use the button &amp;ldquo;Register Now&amp;rdquo; in the top-right corner and submit you application for the participation.</description>
     </item>
     <item>
       <title>Abstract submission is open now</title>
-      <link>http://localhost:62535/news/abstract_submission/</link>
+      <link>https://mri4all.org/news/abstract_submission/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62535/news/abstract_submission/</guid>
+      <guid>https://mri4all.org/news/abstract_submission/</guid>
       <description>It&amp;rsquo;s official! Call for abstracts is now open.</description>
     </item>
   </channel>

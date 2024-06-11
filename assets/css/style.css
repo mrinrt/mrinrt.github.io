@@ -38,7 +38,8 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -66,7 +67,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -184,7 +186,7 @@ h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -244,7 +246,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -472,7 +474,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/hero-bg2.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -486,7 +488,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  /* background: rgba(6, 12, 34, 0.8); */
+  background: rgba(6, 12, 34, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -516,7 +519,7 @@ h6 {
 
 #hero h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -610,7 +613,7 @@ h6 {
 }
 
 #hero .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -651,7 +654,7 @@ h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/about-bg2.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1041,6 +1044,17 @@ h6 {
   color: #018DF9;
 }
 
+.hotel-list a {
+  color: #152b79;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hotel-list a:hover {
+  color: #018DF9;
+}
+
 #hotels .stars {
   padding: 0 20px;
   margin-bottom: 5px;
@@ -1056,6 +1070,42 @@ h6 {
   color: #060c22;
   font-style: italic;
   font-size: 15px;
+}
+
+#hotels a.blue-btn {
+  border: 0;
+  padding: 9px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #018DF9;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+#hotels a.blue-btn:hover {
+  background: #0179d4;
+  color: #fff;
+}
+
+.blue-btn {
+  border: 0;
+  padding: 9px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #018DF9;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+.blue-btn:hover {
+  background: #0179d4;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1133,23 +1183,6 @@ h6 {
 
 #supporters img {
   transition: all 0.4s ease-in-out;
-}
-
-.blue-btn {
-  border: 0;
-  padding: 9px 25px;
-  cursor: pointer;
-  background: #0e1b4d;
-  color: #fff;
-  transition: all 0.3s ease;
-  outline: none;
-  font-size: 14px;
-  border-radius: 50px;
-}
-
-.blue-btn:hover {
-  background: #1b328d;
-  color: #fff;
 }
 
 @media (max-width: 460px) {
@@ -1531,7 +1564,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1545,7 +1578,7 @@ h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #fff;
 }
 
