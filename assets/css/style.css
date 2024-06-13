@@ -51,7 +51,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #9f7824;
+  color: #0179d4;
   outline: none;
   text-decoration: none;
 }
@@ -68,7 +68,7 @@ h4,
 h5,
 h6 {
   /* font-family: "Raleway", sans-serif; */
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -186,7 +186,7 @@ h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -246,7 +246,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -519,7 +519,7 @@ h6 {
 
 #hero h1 {
   color: #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -613,7 +613,7 @@ h6 {
 }
 
 #hero .about-btn {
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1046,7 +1046,7 @@ h6 {
 
 .hotel-list a {
   color: #152b79;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
 }
@@ -1284,7 +1284,7 @@ h6 {
   border-radius: 0;
 }
 
-#buy-tickets #buy-ticket-modal .btn {
+/* #buy-tickets #buy-ticket-modal .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1296,7 +1296,7 @@ h6 {
 
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
-}
+} */
 
 /*--------------------------------------------------------------
 # F.A.Q Section
@@ -1423,9 +1423,9 @@ h6 {
   border-radius: 50px;
 }
 
-#subscribe button:hover {
+/* #subscribe button:hover {
   background: #9f7824;
-}
+} */
 
 @media (max-width: 460px) {
   #subscribe button {
@@ -1497,11 +1497,11 @@ h6 {
 }
 
 #contact .contact-info a {
-  color: #4869df;
+  color: #018DF9;
 }
 
 #contact .contact-info a:hover {
-  color: #018DF9;
+  color: #0179d4;
 }
 
 #contact .contact-address,
@@ -1564,7 +1564,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1578,7 +1578,7 @@ h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
 }
 
