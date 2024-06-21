@@ -644,9 +644,7 @@ h6 {
   }
 }
 
-#hero .imgpulse {
-
-}
+#hero .imgpulse {}
 
 
 /*--------------------------------------------------------------
@@ -693,7 +691,7 @@ h6 {
 }
 
 #about p {
-  font-size: 18px; 
+  font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -861,6 +859,26 @@ h6 {
   bottom: 0;
 }
 
+.chair {
+  width: 230px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 10px 10px 0;
+}
+
+.chair img {
+  vertical-align: middle;
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+h4#chair {
+  font-weight: 600; 
+  margin-bottom: 5px;
+}
+
 #speakers-details {
   padding: 60px 0;
 }
@@ -906,7 +924,6 @@ h6 {
   margin-bottom: 10px;
 }
 
-
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -919,7 +936,7 @@ h6 {
   margin: auto;
   display: block;
   border-bottom: 0;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 #schedule .nav-tabs li {
@@ -934,7 +951,7 @@ h6 {
   background-color: #0e1b4d;
   color: #fff;
   padding: 10px 50px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 #schedule .nav-item-i2i {
@@ -1821,29 +1838,28 @@ h6 {
 }
 
 .heroimage:hover {
-  transform: scale(1.1);  
+  transform: scale(1.1);
 }
 
 .teamsbullet {
-  color: #018DF9;  
+  color: #018DF9;
 }
 
 .teamsdesc {
   background: rgba(6, 12, 34, 0.98);
   color: #fff;
   font-size: 16px;
-    /* width: 100%; */
+  /* width: 100%; */
   aspect-ratio: 1.333 / 1;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 .teamdesc-inner {
   padding: 24px;
 }
 
-.teamdesc-text {
-}
+.teamdesc-text {}
 
 .speaker {
   border-right: 3px solid #fff;
@@ -1854,6 +1870,6 @@ h6 {
   font-size: 18px;
 }
 
-#day-i2i > h3 {
+#day-i2i>h3 {
   line-height: 24px;
 }
