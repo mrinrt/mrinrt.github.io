@@ -1488,7 +1488,7 @@ h4#chair {
 --------------------------------------------------------------*/
 #subscribe {
   padding: 60px;
-  background: url(../img/subscribe-bg2.jpg) center center no-repeat;
+  background: url(../img/subscribe-bg.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1813,6 +1813,10 @@ h4#chair {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+a.privacy  {
+  color: #757e87;
 }
 
 .fancy-btn {
