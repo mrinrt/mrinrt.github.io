@@ -204,12 +204,12 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
 }
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 45px;
   }
 }
 
@@ -519,7 +519,7 @@ h6 {
 #hero h1 {
   color: #fff;
   font-family: "Inter", sans-serif;
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -874,7 +874,22 @@ h6 {
   margin-left: 50%;
 }
 
-h4#chair {
+.member {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 10px 10px 0;
+}
+
+.member img {
+  vertical-align: middle;
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+h4#chair, h4#member {
   font-weight: 600; 
   margin-bottom: 5px;
 }
@@ -1072,7 +1087,7 @@ h4#chair {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg2.png") top center no-repeat;
+  background: url("../img/venue-info-bg2.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1182,7 +1197,7 @@ h4#chair {
 }
 
 #hotels .stars i {
-  color: rgb(255, 195, 29);
+  color: #018DF9;
 }
 
 .hoteldesc {
@@ -1736,6 +1751,13 @@ h4#chair {
   position: relative;
   padding-bottom: 12px;
   border-bottom: 2px solid #018DF9;
+}
+
+#footer h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 #footer .footer-top .footer-links {
