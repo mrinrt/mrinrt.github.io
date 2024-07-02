@@ -42,6 +42,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+::selection {
+  background-color: #018DF9;
+  color: #fff;
+}
+
 a {
   color: #018DF9;
   text-decoration: none;
@@ -700,7 +705,7 @@ h6 {
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {
-  padding: 60px 0 30px 0;
+  padding: 60px 0 60px 0;
 }
 
 #speakers .speaker {
@@ -804,7 +809,7 @@ h6 {
 # Committee Section
 --------------------------------------------------------------*/
 #committee {
-  padding: 60px 0 30px 0;
+  padding: 60px 0 60px 0;
 }
 
 #committee .speaker {
@@ -1069,6 +1074,14 @@ h4#chair, h4#member {
   margin-bottom: 0;
 }
 
+.program_list .nav-item {
+  padding-right: 10px;
+}
+
+.program_list .nav-item:last-child {
+  padding-right: 0px;
+}
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
@@ -1301,6 +1314,7 @@ h4#chair, h4#member {
 
 #supporters .supporter-logo {
   padding: 30px;
+  margin: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1311,7 +1325,10 @@ h4#chair, h4#member {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
+  width: 300px;
 }
+
+
 
 #supporters .supporter-logo:hover img {
   transform: scale(1.2);
@@ -1898,4 +1915,11 @@ a.privacy  {
 
 #day-i2i>h3 {
   line-height: 24px;
+}
+
+.section-paragraph {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFF;
 }
