@@ -1306,17 +1306,17 @@ h4#chair, h4#member {
 }
 
 /*--------------------------------------------------------------
-# Sponsors Section
+# Sponsors and Endorsers Section
 --------------------------------------------------------------*/
-#supporters {
+#supporters, #endorsers {
   padding: 60px 0;
 }
 
-#supporters .supporters-wrap {
+#supporters .supporters-wrap, #endorsers .endorsers-wrap {
   margin-bottom: 30px;
 }
 
-#supporters .supporter-logo {
+#supporters .supporter-logo, #endorsers .endorsers-logo {
   padding: 30px;
   margin: 15px;
   display: flex;
@@ -1332,13 +1332,11 @@ h4#chair, h4#member {
   width: 300px;
 }
 
-
-
-#supporters .supporter-logo:hover img {
+#supporters .supporter-logo:hover img, #endorsers .endorsers-logo:hover img {
   transform: scale(1.2);
 }
 
-#supporters img {
+#supporters img, #endorsers img {
   transition: all 0.4s ease-in-out;
 }
 
