@@ -1308,8 +1308,12 @@ h4#chair, h4#member {
 /*--------------------------------------------------------------
 # Sponsors and Endorsers Section
 --------------------------------------------------------------*/
-#supporters, #endorsers {
+#supporters {
   padding: 60px 0;
+}
+
+#endorsers {
+ padding-bottom: 30px;
 }
 
 #supporters .supporters-wrap, #endorsers .endorsers-wrap {
@@ -1317,7 +1321,7 @@ h4#chair, h4#member {
 }
 
 #supporters .supporter-logo, #endorsers .endorsers-logo {
-  padding: 30px;
+  padding: 15px;
   margin: 15px;
   display: flex;
   justify-content: center;
@@ -1328,11 +1332,27 @@ h4#chair, h4#member {
   border-left: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
-  width: 300px;
+  height: 120px;
+  width: 180px;
 }
 
-#supporters .supporter-logo:hover img, #endorsers .endorsers-logo:hover img {
+#supporters .supporter-logo, #endorsers .ismrm-logo {
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: white;
+  height: 120px;
+  width: 180px;
+}
+
+#supporters .supporter-logo:hover img, #endorsers .endorsers-logo:hover img,  #endorsers .ismrm-logo:hover img {
   transform: scale(1.2);
 }
 
