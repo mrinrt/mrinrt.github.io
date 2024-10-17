@@ -1320,7 +1320,7 @@ h4#chair, h4#member {
   margin-bottom: 30px;
 }
 
-#supporters .supporter-logo, #endorsers .endorsers-logo {
+#endorsers .endorsers-logo {
   padding: 15px;
   margin: 15px;
   display: flex;
@@ -1336,9 +1336,9 @@ h4#chair, h4#member {
   width: 180px;
 }
 
-#supporters .supporter-logo, #endorsers .ismrm-logo {
-  padding: 15px;
-  margin: 15px;
+#supporters .supporter-logo {
+  padding: 30px;
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1348,11 +1348,11 @@ h4#chair, h4#member {
   border-left: 1px solid #e0e5fa;
   overflow: hidden;
   background: white;
-  height: 120px;
-  width: 180px;
+  height: 160px;
+  width: 300px;
 }
 
-#supporters .supporter-logo:hover img, #endorsers .endorsers-logo:hover img,  #endorsers .ismrm-logo:hover img {
+#supporters .supporter-logo:hover img, #endorsers .endorsers-logo:hover img {
   transform: scale(1.2);
 }
 
