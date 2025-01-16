@@ -1349,7 +1349,7 @@ h4#chair, h4#member {
   overflow: hidden;
   background: white;
   height: 160px;
-  width: 300px;
+  width: 250px;
 }
 
 #supporters .supporter-logo:hover img, #endorsers .endorsers-logo:hover img {
