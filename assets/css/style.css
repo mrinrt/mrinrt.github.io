@@ -38,7 +38,6 @@
 body {
   background: #fff;
   color: #2f3138;
-  /* font-family: "Open Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -1027,15 +1026,55 @@ h4#chair, h4#member {
   transition: ease-in-out 0.2s;
 }
 
+/* 
 #schedule .schedule-item {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
+} */
+
+/* #schedule .schedule-item:hover {
+  background-color: #fff;
+} */
+
+.accordion-item:not(:has(.accordion-body)) .accordion-button::after {
+  display: none;
 }
 
-#schedule .schedule-item:hover {
-  background-color: #fff;
+.accordion-item {
+  background-color: #f6f7fd;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.accordion-button.collapsed {
+  background-color: #f6f7fd;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+  background-color: white;
+}
+
+.table {
+  --bs-table-bg: #ffffff;
+  margin-bottom: 0;
+}
+
+.table-hover>tbody>tr:hover>* {
+  --bs-table-bg-state: #eff0fc;
+}
+
+th {
+  color: #0e1b4d !important;
+}
+
+.table>:not(caption)>*>* {
+  color: #212529;
 }
 
 #schedule .schedule-item time {
