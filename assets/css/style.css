@@ -1112,8 +1112,8 @@ th {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
+  /* font-style: italic; */
+  color: #212529;
   margin-bottom: 0;
 }
 
