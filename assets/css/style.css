@@ -898,7 +898,7 @@ h6 {
 }
 
 h4#chair, h4#member {
-  font-weight: 600; 
+  font-weight: 600;
   margin-bottom: 5px;
 }
 
@@ -965,6 +965,7 @@ h4#chair, h4#member {
 #schedule .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
+  align-items: start;
 }
 
 #schedule .nav-tabs a {
@@ -1026,18 +1027,23 @@ h4#chair, h4#member {
   transition: ease-in-out 0.2s;
 }
 
-/* 
+#schedule .schedule-time {
+  min-width: 65px;
+}
+
 #schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  transition: background-color ease-in-out 0.3s;
-} */
+  padding-left: 10px;  
+  /* border-bottom: 1px solid #cad4f6; */
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  /* transition: background-color ease-in-out 0.3s; */
+}
 
 /* #schedule .schedule-item:hover {
   background-color: #fff;
 } */
 
+/* hide accordion carrot icon */
 .accordion-item:not(:has(.accordion-body)) .accordion-button::after {
   display: none;
 }
@@ -1352,7 +1358,7 @@ th {
 }
 
 #endorsers {
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #supporters .supporters-wrap, #endorsers .endorsers-wrap {
@@ -1915,7 +1921,7 @@ th {
   color: #ddd;
 }
 
-a.privacy  {
+a.privacy {
   color: #757e87;
 }
 
@@ -2005,7 +2011,81 @@ ul {
   font-size: 18px;
 }
 
-.newslist > ul > li {
+.newslist>ul>li {
   font-size: 18px;
 }
 
+
+
+
+/* Mobile Responsiveness */
+/* Medium Screens (Tablets, 768px to 991px) */
+.about-text {
+  margin-right: 10%;
+}
+
+@media (max-width: 991px) {
+  .about-text {
+    margin-right: 10%;
+  }
+}
+
+/* Small Screens (Mobile, 576px to 767px) */
+@media (max-width: 767px) {
+  .section-header h2 {
+    font-size: 32px;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  #hero .hero-container {
+    top: 0;
+  }
+
+  #hero h1 {
+    font-size: 25px;
+  }
+
+  #about h2 {
+    font-size: 32px;
+  }
+
+  .about-text {
+    margin-right: 0;
+  }
+
+  #schedule .schedule-item h4 {
+    font-size: 15px;
+}
+
+}
+
+/* Extra Small Screens (Mobile, below 576px) */
+@media (max-width: 576px) {
+  .section-header h2 {
+    font-size: 32px;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  #hero .hero-container {
+    top: 0;
+  }
+
+  #hero h1 {
+    font-size: 25px;
+  }
+
+  #about h2 {
+    font-size: 32px;
+  }
+
+  .about-text {
+    margin-right: 0;
+  }
+
+}
