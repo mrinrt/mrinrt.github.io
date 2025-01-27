@@ -1001,7 +1001,7 @@ h4#chair, h4#member {
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
-    padding: 8px 30px;
+    padding: 8px 20px;
   }
 }
 
@@ -1029,10 +1029,11 @@ h4#chair, h4#member {
 
 #schedule .schedule-time {
   min-width: 65px;
+  font-size: 15px;
 }
 
 #schedule .schedule-item {
-  padding-left: 10px;  
+  padding-left: 10px;
   /* border-bottom: 1px solid #cad4f6; */
   /* padding-top: 15px;
   padding-bottom: 15px; */
@@ -2052,13 +2053,25 @@ ul {
     font-size: 32px;
   }
 
+  #about p {
+    font-size: 15px;
+  }
+
+  #venue .venue-info p {
+    font-size: 15px;
+  }
+
   .about-text {
     margin-right: 0;
   }
 
   #schedule .schedule-item h4 {
     font-size: 15px;
-}
+  }
+
+  li, tbody {
+    font-size: 15px;
+  }
 
 }
 
