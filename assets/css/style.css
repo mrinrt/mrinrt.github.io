@@ -2077,6 +2077,10 @@ ul {
     font-size: 12.5px;
   }
 
+  .section-paragraph p, p {
+    font-size: 15px;
+  }
+
 }
 
 /* Extra Small Screens (Mobile, below 576px) */
@@ -2105,4 +2109,24 @@ ul {
     margin-right: 0;
   }
 
+}
+
+/* Table mobile friendly */
+@media (max-width: 767px) {
+  table.table thead {
+    display: none; /* Hide the table header */
+  }
+  table.table tbody tr {
+    display: block; /* Make each row a block */
+    margin-bottom: 15px; /* Add spacing between rows */
+  }
+  table.table tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  table.table tbody td:first-child {
+    font-weight: bold; /* Highlight the row label */
+  }
 }
