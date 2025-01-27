@@ -2034,7 +2034,7 @@ ul {
 /* Small Screens (Mobile, 576px to 767px) */
 @media (max-width: 767px) {
   .section-header h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .img-logo {
@@ -2050,7 +2050,7 @@ ul {
   }
 
   #about h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   #about p {
@@ -2073,12 +2073,16 @@ ul {
     font-size: 15px;
   }
 
+  #schedule .nav-tabs a {
+    font-size: 12.5px;
+  }
+
 }
 
 /* Extra Small Screens (Mobile, below 576px) */
 @media (max-width: 576px) {
   .section-header h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .img-logo {
@@ -2094,7 +2098,7 @@ ul {
   }
 
   #about h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .about-text {
