@@ -203,12 +203,6 @@
 
 <script>
     
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-    });
-
-    
     document.addEventListener('DOMContentLoaded', function () {
         
         const accordionItems = document.querySelectorAll('.accordion-item');
@@ -220,9 +214,14 @@
             if (accordionBody) {
                 
                 const accordionHeader = item.querySelector('.accordion-header');
-                accordionHeader.setAttribute('data-bs-toggle', 'tooltip');
-                accordionHeader.setAttribute('data-bs-placement', 'right');
-                accordionHeader.setAttribute('title', 'Click to see speakers');
+                if (accordionHeader) {
+                    accordionHeader.setAttribute('data-bs-toggle', 'tooltip');
+                    accordionHeader.setAttribute('data-bs-placement', 'right');
+                    accordionHeader.setAttribute('title', 'Click to see speakers');
+                    accordionHeader.setAttribute('data-bs-trigger', 'hover');
+                    accordionHeader.setAttribute('data-bs-delay', '{ "show": 1500, "hide": 0 }');
+                    accordionHeader.setAttribute('data-bs-custom-class', 'speakertooltip');                    
+                }
             }
         });
 
@@ -234,8 +233,5 @@
     });
 
 </script>
-
-
 </body>
-
 </html>

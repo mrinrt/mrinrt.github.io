@@ -2150,3 +2150,28 @@ ul {
     font-weight: bold; /* Highlight the row label */
   }
 }
+
+.accordion-body {
+  background-color: #FFF;
+}
+
+.accordion-button:hover {
+  background-color: #FFF;
+}
+
+.speakertooltip {
+  color: #F00 !important;
+}
+
+.tooltip-inner {
+  background-color: #0e1b4d;
+  color: #FFF;
+}
+
+.tooltip-arrow:before {
+  border-right-color: #0e1b4d !important;  
+}
+
+#schedule .schedule-item h4 {
+  margin-bottom: 0px;
+}
