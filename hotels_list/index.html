@@ -267,8 +267,8 @@
     </div>
   </div>
 </footer>
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
 
 <script src="/assets/vendor/aos/aos.js"></script>
@@ -279,7 +279,41 @@
 
 <script src="/assets/js/main.js"></script>
 
+<script>
+    
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        const accordionItems = document.querySelectorAll('.accordion-item');
+
+        accordionItems.forEach(item => {
+            
+            const accordionBody = item.querySelector('.accordion-body');
+
+            if (accordionBody) {
+                
+                const accordionHeader = item.querySelector('.accordion-header');
+                accordionHeader.setAttribute('data-bs-toggle', 'tooltip');
+                accordionHeader.setAttribute('data-bs-placement', 'right');
+                accordionHeader.setAttribute('title', 'Click to see speakers');
+            }
+        });
+
+        
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+
+</script>
+
+
 </body>
 
 </html>
-

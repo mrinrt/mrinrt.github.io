@@ -1067,6 +1067,17 @@ h4#chair, h4#member {
   background-color: white;
 }
 
+.accordion-body {
+  padding-left: 0.55rem; 
+  padding-right: 0.55rem;
+}
+
+table.table td, 
+table.table th {
+  vertical-align: middle; /* Aligns content vertically in the middle */
+  font-size: 15px;
+}
+
 .table {
   --bs-table-bg: #ffffff;
   margin-bottom: 0;
@@ -2017,9 +2028,8 @@ ul {
 }
 
 
-
-
 /* Mobile Responsiveness */
+
 /* Medium Screens (Tablets, 768px to 991px) */
 .about-text {
   margin-right: 10%;
@@ -2081,6 +2091,11 @@ ul {
     font-size: 15px;
   }
 
+  /* hide tooltip on mobile */
+  .tooltip {
+    display: none !important;
+  }
+
 }
 
 /* Extra Small Screens (Mobile, below 576px) */
@@ -2107,6 +2122,11 @@ ul {
 
   .about-text {
     margin-right: 0;
+  }
+
+  /* hide tooltip on mobile */
+  .tooltip {
+    display: none !important;
   }
 
 }
