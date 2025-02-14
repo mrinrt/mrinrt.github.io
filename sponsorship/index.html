@@ -57,7 +57,7 @@
           <li><a class="nav-link scrollto" href="/#about">About</a></li>
           <li><a class="nav-link scrollto" href="/#schedule">Program</a></li>
           <li><a class="nav-link scrollto" href="/#venue">Venue</a></li>
-          <li><a class="nav-link scrollto" href="/#speakers">Speakers</a></li>
+          
           <li><a class="nav-link scrollto" href="/#hotels">Hotels</a></li>
           <li><a class="nav-link scrollto" href="/#supporters">Sponsors</a></li>
           <li><a class="nav-link scrollto" href="/#committee">Committee</a></li>
@@ -214,7 +214,7 @@
 
         <div class="col-lg-3 col-md-12 col-sm-12 footer-contact">
           <h4>Contact Us</h4>
-          <strong>Email:</strong> &nbsp;<a href="mailto:mri4all.org@gmail.com">mrinrt2025@gmail.com</a><br>
+          <strong>Email:</strong> &nbsp;<a href="mailto:mrinrt2025@gmail.com">mrinrt2025@gmail.com</a><br>
           </p>
 
           <div class="social-links">
@@ -240,8 +240,8 @@
     </div>
   </div>
 </footer>
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
 
 <script src="/assets/vendor/aos/aos.js"></script>
@@ -252,6 +252,37 @@
 
 <script src="/assets/js/main.js"></script>
 
-</body>
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        const accordionItems = document.querySelectorAll('.accordion-item');
 
+        accordionItems.forEach(item => {
+            
+            const accordionBody = item.querySelector('.accordion-body');
+
+            if (accordionBody) {
+                
+                const accordionHeader = item.querySelector('.accordion-header');
+                if (accordionHeader) {
+                    accordionHeader.setAttribute('data-bs-toggle', 'tooltip');
+                    accordionHeader.setAttribute('data-bs-placement', 'right');
+                    accordionHeader.setAttribute('title', 'Click to see speakers');
+                    accordionHeader.setAttribute('data-bs-trigger', 'hover');
+                    accordionHeader.setAttribute('data-bs-delay', '{ "show": 1500, "hide": 0 }');
+                    accordionHeader.setAttribute('data-bs-custom-class', 'speakertooltip');                    
+                }
+            }
+        });
+
+        
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+
+</script>
+</body>
 </html>

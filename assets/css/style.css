@@ -38,7 +38,6 @@
 body {
   background: #fff;
   color: #2f3138;
-  /* font-family: "Open Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -899,7 +898,7 @@ h6 {
 }
 
 h4#chair, h4#member {
-  font-weight: 600; 
+  font-weight: 600;
   margin-bottom: 5px;
 }
 
@@ -966,6 +965,7 @@ h4#chair, h4#member {
 #schedule .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
+  align-items: start;
 }
 
 #schedule .nav-tabs a {
@@ -1001,7 +1001,7 @@ h4#chair, h4#member {
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
-    padding: 8px 30px;
+    padding: 8px 20px;
   }
 }
 
@@ -1027,15 +1027,72 @@ h4#chair, h4#member {
   transition: ease-in-out 0.2s;
 }
 
-#schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  transition: background-color ease-in-out 0.3s;
+#schedule .schedule-time {
+  min-width: 65px;
+  font-size: 15px;
 }
 
-#schedule .schedule-item:hover {
+#schedule .schedule-item {
+  padding-left: 10px;
+  /* border-bottom: 1px solid #cad4f6; */
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  /* transition: background-color ease-in-out 0.3s; */
+}
+
+/* #schedule .schedule-item:hover {
   background-color: #fff;
+} */
+
+/* hide accordion carrot icon */
+.accordion-item:not(:has(.accordion-body)) .accordion-button::after {
+  display: none;
+}
+
+.accordion-item {
+  background-color: #f6f7fd;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.accordion-button.collapsed {
+  background-color: #f6f7fd;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+  background-color: white;
+}
+
+.accordion-body {
+  padding-left: 0.55rem; 
+  padding-right: 0.55rem;
+}
+
+table.table td, 
+table.table th {
+  vertical-align: middle; /* Aligns content vertically in the middle */
+  font-size: 15px;
+}
+
+.table {
+  --bs-table-bg: #ffffff;
+  margin-bottom: 0;
+}
+
+.table-hover>tbody>tr:hover>* {
+  --bs-table-bg-state: #eff0fc;
+}
+
+th {
+  color: #0e1b4d !important;
+}
+
+.table>:not(caption)>*>* {
+  color: #212529;
 }
 
 #schedule .schedule-item time {
@@ -1073,8 +1130,8 @@ h4#chair, h4#member {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
+  /* font-style: italic; */
+  color: #212529;
   margin-bottom: 0;
 }
 
@@ -1261,6 +1318,10 @@ h4#chair, h4#member {
   color: #fff;
 }
 
+.blue-btn:visited {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
@@ -1313,7 +1374,7 @@ h4#chair, h4#member {
 }
 
 #endorsers {
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #supporters .supporters-wrap, #endorsers .endorsers-wrap {
@@ -1876,7 +1937,7 @@ h4#chair, h4#member {
   color: #ddd;
 }
 
-a.privacy  {
+a.privacy {
   color: #757e87;
 }
 
@@ -1966,7 +2027,155 @@ ul {
   font-size: 18px;
 }
 
-.newslist > ul > li {
+.newslist>ul>li {
   font-size: 18px;
 }
 
+
+/* Mobile Responsiveness */
+
+/* Medium Screens (Tablets, 768px to 991px) */
+.about-text {
+  margin-right: 10%;
+}
+
+@media (max-width: 991px) {
+  .about-text {
+    margin-right: 10%;
+  }
+}
+
+/* Small Screens (Mobile, 576px to 767px) */
+@media (max-width: 767px) {
+  .section-header h2 {
+    font-size: 30px;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  #hero .hero-container {
+    top: 0;
+  }
+
+  #hero h1 {
+    font-size: 25px;
+  }
+
+  #about h2 {
+    font-size: 30px;
+  }
+
+  #about p {
+    font-size: 15px;
+  }
+
+  #venue .venue-info p {
+    font-size: 15px;
+  }
+
+  .about-text {
+    margin-right: 0;
+  }
+
+  #schedule .schedule-item h4 {
+    font-size: 15px;
+  }
+
+  li, tbody {
+    font-size: 15px;
+  }
+
+  #schedule .nav-tabs a {
+    font-size: 12.5px;
+  }
+
+  .section-paragraph p, p {
+    font-size: 15px;
+  }
+
+  /* hide tooltip on mobile */
+  .tooltip {
+    display: none !important;
+  }
+
+}
+
+/* Extra Small Screens (Mobile, below 576px) */
+@media (max-width: 576px) {
+  .section-header h2 {
+    font-size: 30px;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  #hero .hero-container {
+    top: 0;
+  }
+
+  #hero h1 {
+    font-size: 25px;
+  }
+
+  #about h2 {
+    font-size: 30px;
+  }
+
+  .about-text {
+    margin-right: 0;
+  }
+
+  /* hide tooltip on mobile */
+  .tooltip {
+    display: none !important;
+  }
+
+}
+
+/* Table mobile friendly */
+@media (max-width: 767px) {
+  table.table thead {
+    display: none; /* Hide the table header */
+  }
+  table.table tbody tr {
+    display: block; /* Make each row a block */
+    margin-bottom: 15px; /* Add spacing between rows */
+  }
+  table.table tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  table.table tbody td:first-child {
+    font-weight: bold; /* Highlight the row label */
+  }
+}
+
+.accordion-body {
+  background-color: #FFF;
+}
+
+.accordion-button:hover {
+  background-color: #FFF;
+}
+
+.speakertooltip {
+  color: #F00 !important;
+}
+
+.tooltip-inner {
+  background-color: #0e1b4d;
+  color: #FFF;
+}
+
+.tooltip-arrow:before {
+  border-right-color: #0e1b4d !important;  
+}
+
+#schedule .schedule-item h4 {
+  margin-bottom: 0px;
+}
