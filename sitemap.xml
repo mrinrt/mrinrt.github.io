@@ -17,10 +17,19 @@
     <loc>https://mrinrt.org/news/</loc>
     <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://mrinrt.org/archive/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mrinrt.org/forauthors/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://mrinrt.org/archive/forauthors/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mrinrt.org/privacy/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mrinrt.org/archive/register/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrinrt.org/register/</loc>
@@ -38,5 +47,7 @@
     <loc>https://mrinrt.org/categories/</loc>
   </url><url>
     <loc>https://mrinrt.org/tags/</loc>
+  </url><url>
+    <loc>https://mrinrt.org/archive/news/</loc>
   </url>
 </urlset>
