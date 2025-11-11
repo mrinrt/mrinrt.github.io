@@ -6,8 +6,15 @@
     <description>Recent content on MRinRT Symposium 2025</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mrinrt.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Submission</title>
+      <link>https://mrinrt.org/abstracts/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://mrinrt.org/abstracts/</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Abstract Review Complete</title>
       <link>https://mrinrt.org/news/abstract_reviewed/</link>
@@ -30,18 +37,11 @@
       <description>&lt;p&gt;We invite you to submit your original contributions in the field of MR simulation and MR-guided radiotherapy to the 11th MR in RT symposium, which will take place on April 14-16th, 2025 at NYU Langone Health campus in New York.&lt;/p&gt;&#xA;&lt;h4 id=&#34;important-dates&#34;&gt;&lt;strong&gt;Important Dates&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Abstract Submission Opens: August 22, 2024&lt;/li&gt;&#xA;&lt;li&gt;Abstract Submission Deadline: &lt;strong&gt;December 2, 2024&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Anticipated Notification Date: January 17, 2025&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a class=&#34;blue-btn&#34; style=&#34;background-color: #bbc1cc&#34;&gt;Abstract Information&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>For Authors</title>
-      <link>https://mrinrt.org/forauthors/</link>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/forauthors/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>For Authors (Archive)</title>
       <link>https://mrinrt.org/archive/forauthors/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://mrinrt.org/archive/forauthors/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+      <description>&lt;p&gt;TODO or not TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy Policy</title>

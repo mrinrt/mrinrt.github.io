@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mrinrt.org/news/abstract_reviewed/</loc>
-    <lastmod>2025-01-27T00:00:00+00:00</lastmod>
+    <loc>https://mrinrt.org/abstracts/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrinrt.org/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mrinrt.org/news/abstract_reviewed/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrinrt.org/news/call_for_abstracts-copy/</loc>
@@ -18,9 +21,6 @@
     <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrinrt.org/archive/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mrinrt.org/forauthors/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mrinrt.org/archive/forauthors/</loc>
