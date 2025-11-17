@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archive on MRinRT Symposium 2025</title>
-    <link>https://mrinrt.org/archive/</link>
+    <link>http://localhost:1313/archive/</link>
     <description>Recent content in Archive on MRinRT Symposium 2025</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mrinrt.org/archive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>For Authors</title>
-      <link>https://mrinrt.org/archive/forauthors/</link>
+      <link>http://localhost:1313/archive/forauthors/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/archive/forauthors/</guid>
+      <guid>http://localhost:1313/archive/forauthors/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Registration</title>
-      <link>https://mrinrt.org/archive/register/</link>
+      <link>http://localhost:1313/archive/register/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/archive/register/</guid>
+      <guid>http://localhost:1313/archive/register/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scientific Committee</title>
-      <link>https://mrinrt.org/archive/committees/</link>
+      <link>http://localhost:1313/archive/committees/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/archive/committees/</guid>
+      <guid>http://localhost:1313/archive/committees/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
   </channel>
