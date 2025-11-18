@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates &amp; News on MRinRT Symposium 2025</title>
-    <link>https://mrinrt.org/archive/news/</link>
+    <link>http://localhost:1313/archive_news/</link>
     <description>Recent content in Updates &amp; News on MRinRT Symposium 2025</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mrinrt.org/archive/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archive_news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abstract Review Complete</title>
-      <link>https://mrinrt.org/archive/news/abstract_reviewed/</link>
+      <link>http://localhost:1313/archive_news/abstract_reviewed/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/archive/news/abstract_reviewed/</guid>
-      <description>&lt;p&gt;Abstract review is now complete and authors have been notified of their abstract submission. Please take a look at the updated &lt;a href=&#34;https://mrinrt.org/archive/#schedule&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/archive_news/abstract_reviewed/</guid>
+      <description>&lt;p&gt;Abstract review is now complete and authors have been notified of their abstract submission. Please take a look at the updated &lt;a href=&#34;http://localhost:1313/#schedule&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Abstract Submission Closed</title>
-      <link>https://mrinrt.org/archive/news/call_for_abstracts-copy/</link>
+      <link>http://localhost:1313/archive_news/call_for_abstracts-copy/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/archive/news/call_for_abstracts-copy/</guid>
+      <guid>http://localhost:1313/archive_news/call_for_abstracts-copy/</guid>
       <description>&lt;p&gt;Abstract submission is now closed and the submitted abstracts are currently under review. The notifications will be sent out in early January. Thank you all for your participation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Call for Abstracts</title>
-      <link>https://mrinrt.org/archive/news/call_for_abstracts/</link>
+      <link>http://localhost:1313/archive_news/call_for_abstracts/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mrinrt.org/archive/news/call_for_abstracts/</guid>
+      <guid>http://localhost:1313/archive_news/call_for_abstracts/</guid>
       <description>&lt;p&gt;We invite you to submit your original contributions in the field of MR simulation and MR-guided radiotherapy to the 11th MR in RT symposium, which will take place on April 14-16th, 2025 at NYU Langone Health campus in New York.&lt;/p&gt;&#xA;&lt;h4 id=&#34;important-dates&#34;&gt;&lt;strong&gt;Important Dates&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Abstract Submission Opens: August 22, 2024&lt;/li&gt;&#xA;&lt;li&gt;Abstract Submission Deadline: &lt;strong&gt;December 2, 2024&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Anticipated Notification Date: January 17, 2025&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a class=&#34;blue-btn&#34; style=&#34;background-color: #bbc1cc&#34;&gt;Abstract Information&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
