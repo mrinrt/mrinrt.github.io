@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MRinRT Symposium 2025</title>
-    <link>http://localhost:1313/</link>
+    <link>https://mrinrt.org/</link>
     <description>Recent content on MRinRT Symposium 2025</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mrinrt.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abstract Submission</title>
-      <link>http://localhost:1313/abstracts/</link>
+      <link>https://mrinrt.org/abstracts/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/abstracts/</guid>
+      <guid>https://mrinrt.org/abstracts/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Abstract Review Complete</title>
-      <link>http://localhost:1313/news/abstract_reviewed/</link>
+      <link>https://mrinrt.org/news/abstract_reviewed/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/abstract_reviewed/</guid>
-      <description>&lt;p&gt;Abstract review is now complete and authors have been notified of their abstract submission. Please take a look at the updated &lt;a href=&#34;http://localhost:1313/#schedule&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://mrinrt.org/news/abstract_reviewed/</guid>
+      <description>&lt;p&gt;Abstract review is now complete and authors have been notified of their abstract submission. Please take a look at the updated &lt;a href=&#34;https://mrinrt.org/#schedule&#34;&gt;program&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Abstract Submission Closed</title>
-      <link>http://localhost:1313/news/call_for_abstracts-copy/</link>
+      <link>https://mrinrt.org/news/call_for_abstracts-copy/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/call_for_abstracts-copy/</guid>
+      <guid>https://mrinrt.org/news/call_for_abstracts-copy/</guid>
       <description>&lt;p&gt;Abstract submission is now closed and the submitted abstracts are currently under review. The notifications will be sent out in early January. Thank you all for your participation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Call for Abstracts</title>
-      <link>http://localhost:1313/news/call_for_abstracts/</link>
+      <link>https://mrinrt.org/news/call_for_abstracts/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/call_for_abstracts/</guid>
+      <guid>https://mrinrt.org/news/call_for_abstracts/</guid>
       <description>&lt;p&gt;We invite you to submit your original contributions in the field of MR simulation and MR-guided radiotherapy to the 11th MR in RT symposium, which will take place on April 14-16th, 2025 at NYU Langone Health campus in New York.&lt;/p&gt;&#xA;&lt;h4 id=&#34;important-dates&#34;&gt;&lt;strong&gt;Important Dates&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Abstract Submission Opens: August 22, 2024&lt;/li&gt;&#xA;&lt;li&gt;Abstract Submission Deadline: &lt;strong&gt;December 2, 2024&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Anticipated Notification Date: January 17, 2025&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a class=&#34;blue-btn&#34; style=&#34;background-color: #bbc1cc&#34;&gt;Abstract Information&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>For Authors</title>
-      <link>http://localhost:1313/archive/forauthors/</link>
+      <link>https://mrinrt.org/archive/forauthors/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archive/forauthors/</guid>
+      <guid>https://mrinrt.org/archive/forauthors/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy/</link>
+      <link>https://mrinrt.org/privacy/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
+      <guid>https://mrinrt.org/privacy/</guid>
       <description>&lt;h2 id=&#34;privacy-statement&#34;&gt;Privacy Statement&lt;/h2&gt;&#xA;&lt;div style=&#34;margin-bottom: 10px; font-size: 0px;&#34;&gt;&amp;nbsp;&lt;/div&gt;&#xA;&lt;p&gt;This privacy policy will explain how mrinrt.org uses personal data we collect from you when you use our website.&#xA;&lt;div style=&#34;margin-bottom: 20px; font-size: 0px;&#34;&gt;&amp;nbsp;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-do-we-collect-your-data&#34;&gt;How do we collect your data?&lt;/h3&gt;&#xA;&lt;p&gt;You directly provide mrinrt.org with the data we collect. We collect data and process data only when you complete the questionnaire regarding your intention to participate in the MRinRT Symposium 2025.&#xA;&lt;div style=&#34;margin-bottom: 10px; font-size: 0px;&#34;&gt;&amp;nbsp;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-will-we-use-your-data&#34;&gt;How will we use your data?&lt;/h3&gt;&#xA;&lt;p&gt;mrinrt.org collects your data so that we can collect applications for the participation in the planned event. You data will not be shared with third parties.&#xA;&lt;div style=&#34;margin-bottom: 10px; font-size: 0px;&#34;&gt;&amp;nbsp;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Registration</title>
-      <link>http://localhost:1313/archive/register/</link>
+      <link>https://mrinrt.org/archive/register/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archive/register/</guid>
+      <guid>https://mrinrt.org/archive/register/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Registration</title>
-      <link>http://localhost:1313/register/</link>
+      <link>https://mrinrt.org/register/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/register/</guid>
+      <guid>https://mrinrt.org/register/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scientific Committee</title>
-      <link>http://localhost:1313/archive/committees/</link>
+      <link>https://mrinrt.org/archive/committees/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archive/committees/</guid>
+      <guid>https://mrinrt.org/archive/committees/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scientific Committee</title>
-      <link>http://localhost:1313/committees/</link>
+      <link>https://mrinrt.org/committees/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/committees/</guid>
+      <guid>https://mrinrt.org/committees/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sponsorship Opportunities</title>
-      <link>http://localhost:1313/hotels_list/</link>
+      <link>https://mrinrt.org/hotels_list/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hotels_list/</guid>
+      <guid>https://mrinrt.org/hotels_list/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sponsorship Opportunities</title>
-      <link>http://localhost:1313/sponsorship/</link>
+      <link>https://mrinrt.org/sponsorship/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sponsorship/</guid>
+      <guid>https://mrinrt.org/sponsorship/</guid>
       <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
   </channel>

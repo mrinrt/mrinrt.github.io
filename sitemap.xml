@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/abstracts/</loc>
+    <loc>https://mrinrt.org/abstracts/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mrinrt.org/</loc>
     <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/abstract_reviewed/</loc>
+    <loc>https://mrinrt.org/news/abstract_reviewed/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/call_for_abstracts-copy/</loc>
+    <loc>https://mrinrt.org/news/call_for_abstracts-copy/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/call_for_abstracts/</loc>
+    <loc>https://mrinrt.org/news/call_for_abstracts/</loc>
     <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>https://mrinrt.org/news/</loc>
     <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/</loc>
+    <loc>https://mrinrt.org/archive/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/forauthors/</loc>
+    <loc>https://mrinrt.org/archive/forauthors/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>https://mrinrt.org/privacy/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/register/</loc>
+    <loc>https://mrinrt.org/archive/register/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/register/</loc>
+    <loc>https://mrinrt.org/register/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/committees/</loc>
+    <loc>https://mrinrt.org/archive/committees/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/committees/</loc>
+    <loc>https://mrinrt.org/committees/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hotels_list/</loc>
+    <loc>https://mrinrt.org/hotels_list/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sponsorship/</loc>
+    <loc>https://mrinrt.org/sponsorship/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mrinrt.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mrinrt.org/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/archive/news/</loc>
+    <loc>https://mrinrt.org/archive/news/</loc>
   </url>
 </urlset>
